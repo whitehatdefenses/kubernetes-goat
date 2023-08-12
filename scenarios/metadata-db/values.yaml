@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: madhuakula/k8s-goat-metadata-db
   tag: latest
-  pullPolicy: Always
+  pullPolicy: imagePullPolicy: IfNotPresent
 
 nameOverride: ""
 fullnameOverride: ""
