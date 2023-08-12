@@ -32,6 +32,7 @@ spec:
       containers:
       - name: system-monitor
         image: madhuakula/k8s-goat-system-monitor
+        imagePullPolicy: IfNotPresent
         resources:
           limits:
             memory: "50Mi"
