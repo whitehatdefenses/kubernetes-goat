@@ -70,6 +70,7 @@ spec:
       containers:
       - name: hunger-check
         image: madhuakula/k8s-goat-hunger-check
+        imagePullPolicy: IfNotPresent
         # resources:
         #   limits:
         #     memory: "1000Gi"
